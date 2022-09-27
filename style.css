@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+}
+.main{
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    min-height: 68%;
+    min-width: 10%;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.img-equilibrium{
+    width: 280px;
+    border-radius: 10px;
+}
+.equilibrium{
+    min-width: 100%;
+    padding: 1rem 0px;
+    color: white;
+    font-weight: 600;
+    line-height: 35px;
+}
+.text{
+    min-width: 100%;
+    max-width: 300px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+.eth{
+    width: 100%;
+    padding: 1.5rem .5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.days-left{
+    color:hsl(215, 51%, 70%);
+}
+span{
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 3px;
+}
+.line{
+    color: hsl(215, 32%, 27%);
+    border-bottom: 1px solid;
+    width: 100%;
+}
+.avatar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+.by{
+    padding-left: .5rem;
+    font-weight: 300;
+}
+
+.byText{
+    color: hsl(215, 51%, 70%);
+}
+
+.avatar-img{
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+@media (max-width:300px){
+    .img-equilibrium{
+        width: 250px;
+    }
+    *{
+        font-size: 16px;
+    }
+}
